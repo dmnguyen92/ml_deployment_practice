@@ -12,6 +12,7 @@ TRAINED_MODEL_DIR = os.path.join(PACKAGE_ROOT,'trained_models')
 DATASET_DIR = os.path.join(PACKAGE_ROOT,'datasets')
 
 TRAINING_DATA_FILE = 'data.csv'
+TESTING_DATA_FILE = 'data_test.csv'
 
 FEATURES = ['X']
 TARGET = 'Y'
@@ -19,6 +20,6 @@ TARGET = 'Y'
 PIPELINE_NAME = 'linear_regression'
 PIPELINE_SAVE_FILE = f'{PIPELINE_NAME}_output_v'
 
-ACCEPTABLE_MODEL_DIFFERENCE = 0.05
+ACCEPTABLE_MODEL_DIFFERENCE = 0.5
 
 

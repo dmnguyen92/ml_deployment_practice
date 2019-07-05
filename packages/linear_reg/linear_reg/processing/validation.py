@@ -1,4 +1,4 @@
-from regression_model.config import config
+from linear_reg.config import config
 
 import pandas as pd
 

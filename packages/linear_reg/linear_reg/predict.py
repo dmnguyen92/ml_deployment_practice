@@ -25,6 +25,6 @@ def make_prediction(input_data):
     _logger.info(
             f'Making predictions with model version: {_version}'
             f'Inputs: {validated_data}'
-            f'Predictions: {results}')
+            f'Predictions: {prediction}')
     
     return response

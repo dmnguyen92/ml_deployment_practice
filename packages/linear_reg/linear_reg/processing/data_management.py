@@ -22,7 +22,6 @@ def load_dataset(file_name):
     Returns:
         _data -- panda dataframe
     """
-    file_name = 'data.csv'
     _data = pd.read_csv(os.path.join(config.DATASET_DIR,file_name))
     return _data
 
