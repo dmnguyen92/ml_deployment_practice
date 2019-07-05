@@ -6,3 +6,4 @@ pandas>=0.24.2
  # packaging
 setuptools>=40.8.0
 wheel>=0.33.1
+pytest>=4.0.2
